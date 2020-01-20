@@ -8,9 +8,9 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://drive.google.com/uc?export=download&confirm=mHd1&id=17CDTbphp6xwsMnfhbQC-t6dBmmVehpNd'
+model_file_url = 'https://www.dropbox.com/s/9hpp163pg6pmw58/stage-3.pth?raw=1'
 
-model_file_name = 'model'
+model_file_name = 'stage-3'
 classes = ['dota', 'fortnite', 'lol', 'pubg', 'sc2']
 path = Path(__file__).parent
 
