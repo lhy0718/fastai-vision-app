@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://www.dropbox.com/s/9hpp163pg6pmw58/stage-3.pth?raw=1'
+model_file_url = 'http://localhost:8080/files/MLTest/data/games/models/stage-3.pth?_xsrf=2%7Cca88aabf%7C76376a12b38a6c1a7257b836b061f03a%7C1578804172'
 
 model_file_name = 'stage-3.pth'
 classes = ['dota', 'fortnite', 'lol', 'pubg', 'sc2']
